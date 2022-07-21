@@ -17,7 +17,6 @@ public class PrimeNumbers {
 			if (counter == 2) primes.add(number);
 			number++;
 		}
-		System.out.println("Size of the array is " + primes.size());
 		return primes;
 	}
 }
